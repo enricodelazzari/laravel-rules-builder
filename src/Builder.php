@@ -2,6 +2,6 @@
 
 namespace Maize\RulesBuilder;
 
-class RulesBuilder
+class Builder
 {
 }

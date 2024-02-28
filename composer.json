@@ -41,8 +41,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Maize\\RulesBuilder\\Tests\\": "tests/",
-            "Workbench\\App\\": "workbench/app/"
+            "Maize\\RulesBuilder\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -74,10 +73,7 @@
         "laravel": {
             "providers": [
                 "Maize\\RulesBuilder\\RulesBuilderServiceProvider"
-            ],
-            "aliases": {
-                "RulesBuilder": "Maize\\RulesBuilder\\Facades\\RulesBuilder"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
