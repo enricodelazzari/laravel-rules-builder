@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Maize\RulesBuilder\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RulesBuilderCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-rules-builder';
 
     public $description = 'My command';
 
