@@ -2,9 +2,9 @@
 
 namespace Maize\RulesBuilder;
 
+use Maize\RulesBuilder\Commands\RulesBuilderCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Maize\RulesBuilder\Commands\RulesBuilderCommand;
 
 class RulesBuilderServiceProvider extends PackageServiceProvider
 {
